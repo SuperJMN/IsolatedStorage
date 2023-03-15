@@ -1,0 +1,20 @@
+﻿<Project>
+	
+	<PropertyGroup>
+		<PackageId>$(MSBuildProjectName)</PackageId>
+		<Authors>SuperJMN,Wiesław Šoltés,Jumar Macato</Authors>
+		<Description>Provides light isolated generic storage</Description>
+		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
+		<PackageReleaseNotes></PackageReleaseNotes>
+		<PackageTags>Storage Isolated Settings</PackageTags>
+		<Product>IsolatedStorage</Product>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageIconUrl />
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\..\icon.png" Pack="true" PackagePath=""/>
+	</ItemGroup>
+
+</Project>

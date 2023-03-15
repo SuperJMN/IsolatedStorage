@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33424.131
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsolatedStorage", "Source\IsolatedStorage\IsolatedStorage.csproj", "{C31264E7-B4EE-4FFD-9667-C6C90929FD76}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{EDE837DE-F687-4B23-9017-15F013962708}"
+	ProjectSection(SolutionItems) = preProject
+		Build\azure-pipelines.yml = Build\azure-pipelines.yml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsolatedStorage.Core", "Source\IsolatedStorage.Core\IsolatedStorage.Core.csproj", "{140BC8F5-7B21-447D-884E-3588E7679854}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IsolatedStorage.Browser", "Source\IsolatedStorage.Browser\IsolatedStorage.Browser.csproj", "{56491B7C-47D1-4D84-8100-9061EE4372AD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C31264E7-B4EE-4FFD-9667-C6C90929FD76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31264E7-B4EE-4FFD-9667-C6C90929FD76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31264E7-B4EE-4FFD-9667-C6C90929FD76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31264E7-B4EE-4FFD-9667-C6C90929FD76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{140BC8F5-7B21-447D-884E-3588E7679854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140BC8F5-7B21-447D-884E-3588E7679854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140BC8F5-7B21-447D-884E-3588E7679854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140BC8F5-7B21-447D-884E-3588E7679854}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56491B7C-47D1-4D84-8100-9061EE4372AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56491B7C-47D1-4D84-8100-9061EE4372AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56491B7C-47D1-4D84-8100-9061EE4372AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56491B7C-47D1-4D84-8100-9061EE4372AD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0AC54714-4063-412F-8A1E-D529078A0A12}
+	EndGlobalSection
+EndGlobal
