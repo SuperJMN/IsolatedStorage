@@ -2,7 +2,7 @@
 	
 	<PropertyGroup>
 		<PackageId>$(MSBuildProjectName)</PackageId>
-		<Authors>SuperJMN,Wiesław Šoltés,Jumar Macato</Authors>
+		<Authors>SuperJMN, Wiesław Šoltés, Jumar Macato</Authors>
 		<Description>Provides light isolated generic storage</Description>
 		<PackageRequireLicenseAcceptance>False</PackageRequireLicenseAcceptance>
 		<PackageReleaseNotes></PackageReleaseNotes>
